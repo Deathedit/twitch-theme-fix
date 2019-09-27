@@ -1,4 +1,5 @@
 ## Before
-<img src="./img/Before.png" width="720" height="520">
+<img src="./img/Before.png" width="650" height="520">
+
 ## After
-<img src="./img/After.png" width="720" height="520">
+<img src="./img/After.png" width="650" height="520">
