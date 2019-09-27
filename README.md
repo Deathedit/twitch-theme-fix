@@ -1,7 +1,7 @@
 # twitch-theme-fix
 
 ## Before
-![Screenshot](Before.png)
+![Before](Before.png)
 
 ## After
-![Screenshot](After.png)
+![After](After.png)
