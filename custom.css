@@ -1,0 +1,9 @@
+.tw-root--theme-dark body,
+.tw-root--theme-dark .channel-header,
+.tw-root--theme-dark .chat-room,
+.tw-root--theme-dark .channel-root__right-column {
+    background-color: #181b1b;
+}
+.tw-mg-b-2 h1 {
+    display:none;
+}
