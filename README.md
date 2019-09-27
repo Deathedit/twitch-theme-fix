@@ -1,7 +1,4 @@
-# twitch-theme-fix
-
 ## Before
-![Before](img/Before.png)
-
+<img src="./img/Before.png" width="720" height="520">
 ## After
-![After](img/After.png)
+<img src="./img/After.png" width="720" height="520">
