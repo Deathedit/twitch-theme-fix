@@ -1,11 +1,10 @@
 /* ==UserStyle==
 @name           twitch-fix-theme
 @namespace      https://github.com/Deathedit/twitch-theme-fix
-@updateURL      https://raw.githubusercontent.com/Deathedit/twitch-theme-fix/master/custom.css
+@updateURL      https://raw.githubusercontent.com/Deathedit/twitch-theme-fix/master/index.user.css
 @version        1.0.0
 @author         Deathedit
 ==/UserStyle== */
-
 @-moz-document domain("twitch.tv") {
 .tw-root--theme-dark body,
 .tw-root--theme-dark .channel-header,
