@@ -5,6 +5,7 @@
 @version        1.0.0
 @author         Deathedit
 ==/UserStyle== */
+
 @-moz-document domain("twitch.tv") {
 .tw-root--theme-dark body,
 .tw-root--theme-dark .channel-header,
