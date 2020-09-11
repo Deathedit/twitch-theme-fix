@@ -1,0 +1,58 @@
+/* ==UserStyle==
+@name           charlieintel.com
+@namespace      https://github.com/Deathedit/userstyle/charlieintel
+@updateURL      https://raw.githubusercontent.com/Deathedit/userstyle/master/charlieintel/index.user.css
+@version        1.0.0
+@description    dark theme for charlieintel
+@author         Deathedit
+==/UserStyle== */
+
+@-moz-document domain("charlieintel.com") {
+    .td-outer-container,
+    .td_category_template_3 .td-scrumb-holder .td-pb-span12 {
+        background-color:#111;
+    }
+    .td-main-content:before,
+    .td-main-sidebar:before,
+    .td-container-border:after,
+    .td-container-border:before,
+    .td-container .td-pb-row .wpb_column:before {
+        background-color:#111;
+    }
+    .td-ss-main-content, 
+    .td-post-template-5 header,
+    .td-pb-row [class*="td-pb-span"],
+    .td-pb-border-top,
+    .td-container {
+        background-color:#111;
+        border-color:#111;
+    }
+    .post,
+    .post p,
+    .post header h1,
+    .td-category-description p,
+    .td-module-title a,
+    .td-load-more-wrap a,
+    .td-post-author-name a,
+    .td-post-comments a,
+    .td-excerpt,
+    .td-author-name a,
+    .td-author-url a,
+    .td-social-icon-wrap i,
+    .td-sub-footer-container,
+    .td-sub-footer-container a,
+    .page-nav span,
+    .meta-info {
+        color:#fff;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color:#fff;
+    }
+    .post-content .post-message {
+        color:#fff;
+    }
+    .jw-media, 
+    .jw-reset {
+        display:none;
+    }
+}

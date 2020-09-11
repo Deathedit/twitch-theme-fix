@@ -1,0 +1,62 @@
+/* ==UserStyle==
+@name           floatplane.com
+@namespace      https://github.com/Deathedit/userstyle/floatplane
+@updateURL      https://raw.githubusercontent.com/Deathedit/userstyle/master/floatplane/index.user.css
+@version        1.0.0
+@description    dark theme for floatplane
+@author         Deathedit
+==/UserStyle== */
+
+@-moz-document domain("www.floatplane.com") {
+    .page-wrapper .route-wrapper {
+        background: #2d2d2d;
+    }
+    .subBox.sharp[_ngcontent-c14] {
+        background-color:#111;
+        box-shadow: inset 0 -1px 0 #111, -1px 0 0 #111, 1px 0 0 #111;
+    }
+    .info-box[_ngcontent-c12] .title[_ngcontent-c12],
+    .info-box[_ngcontent-c12] .age[_ngcontent-c12] {
+        color:#fff;
+    }
+    .subBox[_ngcontent-c14] .header[_ngcontent-c14] .title[_ngcontent-c14],
+    .subBox[_ngcontent-c14] .description[_ngcontent-c14] p[_ngcontent-c14],
+    .subBox[_ngcontent-c14] .header[_ngcontent-c14] .price[_ngcontent-c14], 
+    .subBox[_ngcontent-c14] .header[_ngcontent-c14] .sub-count[_ngcontent-c14] {
+        color:#fff;
+    }
+    .info-box[_ngcontent-c16] .title[_ngcontent-c16],
+    .info-box[_ngcontent-c16] .age[_ngcontent-c16]{
+        color:#fff;
+    }
+    .generic-wrapper .generic-block, 
+    .generic-wrapper .generic-block-padded, 
+    .generic-wrapper .generic-block-padded-threeway {
+        background:#111;
+        border: 1px solid #111;
+    }
+    .video-content-wrapper .video-list .video-list-item,
+    .video-content-wrapper .video-list .video-list-item .video-item-origin a,
+    .video-content-wrapper .video-description-wrapper .video-description-header .channel-info .channel-title,
+    .video-content-wrapper .video-description-wrapper .video-description-header .video-title,
+    .video-content-wrapper .replies-wrapper .reply .reply-header .header-text .author,
+    .video-content-wrapper .comments-wrapper .comment .comment-header .header-text .author,
+    .video-content-wrapper .comments-wrapper .comment .comment-body,
+    .video-content-wrapper .comments-wrapper .reply .reply-body {
+        color:#fff;
+    }
+    .video-content-wrapper .video-list .video-list-item+.video-list-item {
+        border-top: 1px solid #111;
+    }
+    .video-content-wrapper .textarea-wrapper textarea {
+        background:#111;
+        border: 1px solid #111;
+        color:#fff;
+    }
+    .video-content-wrapper .video-description-wrapper .video-description {
+        color:#fff;
+    }
+    .video-content-wrapper .video-description-wrapper .video-description a  {
+        color:#006bff;
+    }
+}

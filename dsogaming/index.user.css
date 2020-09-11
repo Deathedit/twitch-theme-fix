@@ -1,0 +1,45 @@
+/* ==UserStyle==
+@name           DSOGaming
+@namespace      https://github.com/Deathedit/userstyle/dsogaming
+@updateURL      https://raw.githubusercontent.com/Deathedit/userstyle/master/dsogaming/index.user.css
+@version        1.0.0
+@description    dark theme for DSOGaming
+@author         Deathedit
+==/UserStyle== */
+
+@-moz-document domain("dsogaming.com") {
+    #site-header img {
+        content:url("https://i.imgur.com/BwJfCYW.png")
+   }
+   body.custom-background {
+       background-color: #000;
+   }
+   .site-content {
+       margin-right:28.5%;
+   }
+   .content-area, 
+   .content-sidebar {
+   padding-top: 40px;
+   }
+   .secondary-navigation,
+   .content-sidebar, 
+   .widget-area, 
+   .heateor_sss_sharing_container,
+   .featured-content-inner {
+       display:none;
+   }
+   #disqus_thread {
+       margin:5px;
+   }
+   .site-footer:after {
+       content:"test"
+   }
+   /*
+   .site-content .has-post-thumbnail .entry-header {
+       background:none;
+       margin-top: -15px;
+       border-radius: 25px;
+       
+   }
+   */
+}
